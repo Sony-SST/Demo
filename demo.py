@@ -4,6 +4,7 @@ app=Flask(__name__)
 def user():
     name=request.args.get("name")
     return f"hello {name}"
+    
 
 
 app.run(debug=True)

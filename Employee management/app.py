@@ -19,7 +19,14 @@ employees = [
         "name": "Rohit",
         "department": "Finance",
         "salary": 35000
+    },
+    {
+        "id": 4,
+        "name": "Sakshi",
+        "department": "IT",
+        "salary": 45000
     }
+
 ]
 
 @app.route('/employees', methods=['GET'])
