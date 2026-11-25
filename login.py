@@ -7,5 +7,5 @@ def login():
     if username=="Sony" and password=="Goal@234":
         return {"message":"login success"}
     
-    return {"message":"Invalid Login"}
+    return {"message":"Login Unsuccessful"}
 app.run(debug=True)
