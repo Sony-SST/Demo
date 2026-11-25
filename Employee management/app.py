@@ -25,7 +25,14 @@ employees = [
         "name": "Sakshi",
         "department": "IT",
         "salary": 45000
+    },
+     {
+        "id": 5,
+        "name": "Soni",
+        "department": "HR",
+        "salary": 75000
     }
+
 
 ]
 
