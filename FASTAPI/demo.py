@@ -3,5 +3,5 @@ app=FastAPI()
 @app.get("/")
 def home():
     return {
-        "message":"Welcome to FASTAPI"
+        "message":"Welcome to FASTAPI !!"
     }
